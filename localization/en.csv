@@ -1,0 +1,89 @@
+Key,Source,en
+UI.TopBar.Creatures,UI.TopBar.Creatures,Creatures
+UI.TopBar.Close,UI.TopBar.Close,Close
+UI.Plot.EmptyPlot,UI.Plot.EmptyPlot,Empty Plot
+UI.Plot.TapToPlant,UI.Plot.TapToPlant,Tap to plant
+UI.Plot.Harvest,UI.Plot.Harvest,Harvest
+UI.Plot.ReadyToHarvest,UI.Plot.ReadyToHarvest,Ready to harvest!
+UI.Seeds.Title,UI.Seeds.Title,Seeds
+UI.Seeds.Free,UI.Seeds.Free,Free
+UI.Creatures.Title,UI.Creatures.Title,My Creatures
+UI.Creatures.NoBonuses,UI.Creatures.NoBonuses,No bonuses active
+UI.Creatures.Empty,UI.Creatures.Empty,Hatch eggs to get creatures!
+UI.Creatures.Growth,UI.Creatures.Growth,Growth +{pct}%
+UI.Creatures.Coins,UI.Creatures.Coins,Coins +{pct}%
+UI.Creatures.Mutation,UI.Creatures.Mutation,Mutation +{pct}%
+UI.Coins.Gained,UI.Coins.Gained,+{amount}
+Game.Weather.Sunny,Game.Weather.Sunny,Sunny
+Game.Weather.Rainy,Game.Weather.Rainy,Rainy
+Game.Weather.Stormy,Game.Weather.Stormy,Stormy
+Game.Weather.NorthernLights,Game.Weather.NorthernLights,Northern Lights
+Game.Weather.SolarEclipse,Game.Weather.SolarEclipse,Solar Eclipse
+Game.Weather.MeteorShower,Game.Weather.MeteorShower,Meteor Shower
+Game.Weather.ChangedFromTo,Game.Weather.ChangedFromTo,Weather changed from {prev} to {next}.
+Game.Weather.Current,Game.Weather.Current,"Current weather: {name}."
+Game.Harvest.PlantReady,Game.Harvest.PlantReady,Your {plant} in plot {plot} has finished growing.
+Game.Harvest.Earned,Game.Harvest.Earned,Earned {coins} coins!
+Game.Harvest.Harvested,Game.Harvest.Harvested,Harvested {plant}{mutation}
+Game.Harvest.ReadyTitle,Game.Harvest.ReadyTitle,Ready to Harvest!
+Game.Mutation.Title,Game.Mutation.Title,{rarity} Mutation!
+Game.Mutation.Appeared,Game.Mutation.Appeared,A {name} mutation appeared on plot {plot}!
+Game.Mutation.DiscoveryTitle,Game.Mutation.DiscoveryTitle,{rarity} Discovery!
+Game.Mutation.DiscoveryMsg,Game.Mutation.DiscoveryMsg,{player} just discovered a {mutation} {plant}!
+Game.Trade.RequestTitle,Game.Trade.RequestTitle,Trade Request
+Game.Trade.RequestBody,Game.Trade.RequestBody,{name} wants to trade with you! ({timeout}s to respond)
+Game.Trade.CompleteTitle,Game.Trade.CompleteTitle,Trade Complete
+Game.Trade.CompleteBody,Game.Trade.CompleteBody,The trade was completed successfully!
+Game.Trade.CancelledTitle,Game.Trade.CancelledTitle,Trade Cancelled
+Game.Trade.FailedTitle,Game.Trade.FailedTitle,Trade Failed
+Game.Trade.Cancel.RequestExpired,Game.Trade.Cancel.RequestExpired,Trade request expired.
+Game.Trade.Cancel.RequestDeclined,Game.Trade.Cancel.RequestDeclined,Trade request was declined.
+Game.Trade.Cancel.PartnerCancelled,Game.Trade.Cancel.PartnerCancelled,Your trade partner cancelled.
+Game.Trade.Cancel.PartnerLeft,Game.Trade.Cancel.PartnerLeft,Your trade partner left the game.
+Game.Trade.Cancel.YouCancelled,Game.Trade.Cancel.YouCancelled,You cancelled the trade.
+Game.Trade.Cancel.CancelledByTarget,Game.Trade.Cancel.CancelledByTarget,The player declined your trade.
+Game.Trade.Cancel.RequesterLeft,Game.Trade.Cancel.RequesterLeft,The requesting player left.
+Game.Trade.Cancel.TargetInTrade,Game.Trade.Cancel.TargetInTrade,That player is already in a trade.
+Game.Trade.Cancel.Default,Game.Trade.Cancel.Default,Trade was cancelled.
+Game.Trade.Fail.AlreadyInTrade,Game.Trade.Fail.AlreadyInTrade,You're already in a trade.
+Game.Trade.Fail.TargetInTrade,Game.Trade.Fail.TargetInTrade,That player is busy trading.
+Game.Trade.Fail.PlayerNotFound,Game.Trade.Fail.PlayerNotFound,Player not found in this server.
+Game.Trade.Fail.NotEnoughCoins,Game.Trade.Fail.NotEnoughCoins,Not enough coins to complete trade.
+Game.Trade.Fail.NotEnoughSeeds,Game.Trade.Fail.NotEnoughSeeds,Missing seeds for this trade.
+Game.Trade.Fail.NotEnoughItems,Game.Trade.Fail.NotEnoughItems,Missing items for this trade.
+Game.Trade.Fail.InvalidCreature,Game.Trade.Fail.InvalidCreature,Invalid creature in trade offer.
+Game.Trade.Fail.ACreaturesFull,Game.Trade.Fail.ACreaturesFull,You don't have room for more creatures.
+Game.Trade.Fail.BCreaturesFull,Game.Trade.Fail.BCreaturesFull,Your partner doesn't have room for creatures.
+Game.Trade.Fail.PlayerLeft,Game.Trade.Fail.PlayerLeft,A player left during the trade.
+Game.Trade.Fail.Default,Game.Trade.Fail.Default,"Trade failed: {reason}"
+Game.Creature.LevelUpTitle,Game.Creature.LevelUpTitle,Level Up!
+Game.Creature.LevelUpBody,Game.Creature.LevelUpBody,{name} reached level {level}!
+Game.Creature.ReadyToEvolve,Game.Creature.ReadyToEvolve, Ready to evolve!
+Game.Creature.HatchTitle,Game.Creature.HatchTitle,New Creature!
+Game.Creature.HatchBody,Game.Creature.HatchBody,You hatched a {rarity} {name}!
+Game.Creature.HatchFail.MaxCreatures,Game.Creature.HatchFail.MaxCreatures,Your creature slots are full!
+Game.Creature.HatchFail.NotEnoughCoins,Game.Creature.HatchFail.NotEnoughCoins,Not enough coins for this egg.
+Game.Creature.HatchFail.RollFailed,Game.Creature.HatchFail.RollFailed,Hatching failed. Try again.
+Game.Creature.HatchFail.Default,Game.Creature.HatchFail.Default,Could not hatch egg.
+Game.Creature.EvolveTitle,Game.Creature.EvolveTitle,Evolution!
+Game.Creature.EvolveBody,Game.Creature.EvolveBody,Your creature evolved into {name}!
+Game.Creature.EvolveFail.AlreadyEvolved,Game.Creature.EvolveFail.AlreadyEvolved,This creature has already evolved.
+Game.Creature.EvolveFail.LevelTooLow,Game.Creature.EvolveFail.LevelTooLow,Creature hasn't reached the required level.
+Game.Creature.EvolveFail.NotEnoughCoins,Game.Creature.EvolveFail.NotEnoughCoins,Not enough coins to evolve.
+Game.Creature.EvolveFail.Default,Game.Creature.EvolveFail.Default,Could not evolve creature.
+Game.Gift.ReceivedTitle,Game.Gift.ReceivedTitle,Gift from {name}!
+Game.Gift.ReceivedBody,Game.Gift.ReceivedBody,"You received {contents}{note}."
+Game.Gift.SentTitle,Game.Gift.SentTitle,Gift Sent!
+Game.Gift.SentBody,Game.Gift.SentBody,Your gift was delivered to {name}.
+Game.Gift.FallbackContents,Game.Gift.FallbackContents,a gift
+Game.Gift.OfflineNote,Game.Gift.OfflineNote, (while you were away)
+Game.Gift.SendingTo,Game.Gift.SendingTo,"Sending to {name}..."
+Game.Gift.OpenedFrom,Game.Gift.OpenedFrom,Opened gift from {name}!
+Game.Gift.SentTo,Game.Gift.SentTo,Gift sent to {name}!
+Game.Gift.DailyTitle,Game.Gift.DailyTitle,Daily Quest Progress
+Game.Gift.DailyComplete,Game.Gift.DailyComplete,Daily Quest Complete!
+Game.Gift.DailyBody,Game.Gift.DailyBody,"Send {goal} gifts: {progress}"
+Game.Gift.DailyCompleteBody,Game.Gift.DailyCompleteBody,"Send {goal} gifts: {progress} — Claim your reward!"
+Game.Gift.DailyRewardTitle,Game.Gift.DailyRewardTitle,Daily Reward!
+Game.Gift.DailyRewardBody,Game.Gift.DailyRewardBody,You earned {reward} coins for gifting!
+Game.Announce.Fallback,Game.Announce.Fallback,Announcement
